@@ -1,0 +1,11 @@
+Kindly use below as short guide:
+
+java CarGUI auto
+
+copy below and paste into load-controller textfield: 
+JeromeThompsonDubinCarController
+javac JeromeThompsonSimeCarController
+
+and then hit reset to see to see cost based (estimate to gaol search executed).
+
+currently GUI is in place.
