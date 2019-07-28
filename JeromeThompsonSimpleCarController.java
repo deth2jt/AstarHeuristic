@@ -386,6 +386,7 @@ public class JeromeThompsonSimpleCarController implements CarController {
 	for(int x=0; x< frontier.size(); x++)
 	{
 		State thisState = frontier.get (x);
+		//Below is is more complete heurtistic but for examples too a bit loger so used just estimated caost
 		//double thisCost = thisState.costFromStart + thisState.estimatedCostToGoal ;
 		double thisCost =  thisState.estimatedCostToGoal ;
 		if(thisCost < cost)
